@@ -30,3 +30,7 @@ Trykker på henholdsvis knap 1, 2, 3, 4 eller 5 <br>
 Ser noget komme frem ved musen<br>
 
 <h2>Design</h2>
+Rollediagram <br>
+![Rollediagram](Rolle.png)<br>
+Klassediagram <br>
+![Klasse](Klasse.png)
