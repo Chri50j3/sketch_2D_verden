@@ -29,4 +29,4 @@ Tager mus hen til der, hvor der skal komme noget frem<br>
 Trykker på henholdsvis knap 1, 2, 3, 4 eller 5 <br>
 Ser noget komme frem ved musen<br>
 
-<h2>klassediagram</h2>
+<h2>Design</h2>
