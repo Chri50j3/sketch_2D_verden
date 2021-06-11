@@ -22,5 +22,11 @@ Kat - går hurtigt rundt <br>
 Coca - vokser med cocablade <br>
 Weed - vokser med weed blade <br>
 Mudder - får hunde og katte til at gå langsommere  <br>
+<br>
+<h3>Brugsscenarie</h3>
+Bruger <br>
+Tager mus hen til der, hvor der skal komme noget frem<br>
+Trykker på henholdsvis knap 1, 2, 3, 4 eller 5 <br>
+Ser noget komme frem ved musen<br>
 
-<h2>Design</h2>
+<h2>klassediagram</h2>
