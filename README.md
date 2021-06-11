@@ -33,4 +33,4 @@ Ser noget komme frem ved musen<br>
 Rollediagram <br>
 ![Rolle](Rolle.png)<br>
 Klassediagram <br>
-![Klasse](Klasse.png)
+![Klasse](Klasse.png)<br>
