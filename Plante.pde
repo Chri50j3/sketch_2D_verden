@@ -21,7 +21,7 @@ class Plante{
   
   void lavBlade(){
     for(int i = 0; i < 10;i++){
-      blade.add(new Blad(x+random(-b/2,b/2),y+random(-h/2,h/2),blad));
+      blade.add(new Blad(x+random(-b/2,b/2),y+random(-h/2,h/2),blad,random(0,100)));
     }
   }
   
@@ -54,16 +54,15 @@ class Plante{
       dead = true;
     }  
   }
-  
   void display(){
     noStroke();
     fill(farve);
     rect(x,y,b,h);
     bladSize = h/3;
-    
     for(Blad r: blade){
       r.display();
-      r.y -= speed;
+      //r.y -= speed;
+      r.y = y+(h*(r.bredde/100))-h/2; 
     }
   }
 }

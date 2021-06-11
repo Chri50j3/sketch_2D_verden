@@ -5,7 +5,7 @@ class Hund extends Dyr{
     
     farve = color(random(25,30),random(0,255),random(0,255));
     farve2 = color(random(25, 30), random(0, 255), random(50, 255));
-    speed = 3;
+    speed = random(2,4);
     tempSpeed = -speed;
     slow = speed/3;
     b = random(40, 60);
