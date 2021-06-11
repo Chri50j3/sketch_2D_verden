@@ -31,6 +31,6 @@ Ser noget komme frem ved musen<br>
 
 <h2>Design</h2>
 Rollediagram <br>
-![Rollediagram](Rolle.png)<br>
+![Rolle](Rolle.png)<br>
 Klassediagram <br>
 ![Klasse](Klasse.png)
