@@ -1,7 +1,7 @@
 
 class Dyr{
   float x,y;
-  float speed;
+  float speed, tempSpeed, slow;
   color farve, farve2, farve3, farve4;
   float h,b,w;
   float sizeScale;
@@ -17,7 +17,7 @@ class Dyr{
   
   void update(){
   x+=speed;
-  if(x>width || x<0){speed *= -1;}
+  if(x>width+60){x=-50;}
   y += random(-2,2);
   
   if(y < 650) 

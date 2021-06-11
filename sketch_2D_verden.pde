@@ -1,8 +1,9 @@
 ArrayList<Dyr> DyrListe = new ArrayList<Dyr>();
 ArrayList<Plante> PlanteListe = new ArrayList<Plante>();
 ArrayList<Terrain> TerrainListe = new ArrayList<Terrain>();
-PImage weedleaf;
+
 PImage cocaleaf;
+PImage weedleaf;
 
 void setup(){
 fullScreen();
@@ -41,6 +42,15 @@ void draw(){
     if(PlanteListe.size() != s)
     break;
   }
+  
+  for(Dyr r: DyrListe){
+    for(Terrain t: TerrainListe){
+      if(dist(r.x,r.y+50,t.x,t.y)<50){
+        r.speed = r.slow;
+      }
+      else{r.speed = -r.tempSpeed;}
+    }
+  }
 
 }
 
@@ -59,5 +69,8 @@ void keyPressed(){
   }
   if(key == '5'){
     TerrainListe.add(new Mud());
+  }
+  if(key == '6'){
+    TerrainListe.add(new HighGuy());
   }
 }

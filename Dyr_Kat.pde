@@ -13,6 +13,8 @@ class Kat extends Dyr{
     h = random(10, 30);
     sizeScale = random(0.8, 0.9);
     speed = 7;
+    tempSpeed = -speed;
+    slow = speed/3;
     
     a1 = random(20,50);
     a2 = random(10,30);
