@@ -1,0 +1,5 @@
+
+class Coca extends Plante{
+
+
+}

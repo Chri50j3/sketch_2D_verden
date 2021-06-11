@@ -1,0 +1,5 @@
+
+class Mud extends Terrain{
+
+
+}
